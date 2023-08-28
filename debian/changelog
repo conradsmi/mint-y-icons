@@ -1,3 +1,93 @@
+mint-y-icons (1.6.7) victoria; urgency=medium
+
+  [ Michael Webster ]
+  * Mint-Y: Add cs-gestures icon.
+  * Add document-new annd document-revert color icons.
+  * Add missing 16px fullcolor help icons.
+  * Remove all generic symbolic action icons, and those color icons added in ab2ae4b4f, 07a087f7.
+  * actions: Remove broken links.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 08 Jul 2023 18:40:01 +0200
+
+mint-y-icons (1.6.6) victoria; urgency=medium
+
+  [ Nazar Niphone ]
+  * Added GoLand and PhpStorm icons (#333)
+
+  [ Clement Lefebvre ]
+  * Remove fullcolor monochrome actions
+  * Remove dark icon themes
+  * Refactor Places generator
+  * Rework place colors
+  * Add definitions for folder-color-switcher
+  * places: Remove line on folders
+  * Regenerate places files
+  * places: Fixed 24px folder-recent
+  * Update README
+  * Update README.md
+
+  [ Callum Andrew ]
+  * Add symlinks for Bitwarden flatpak
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 05 Jun 2023 13:16:11 +0100
+
+mint-y-icons (1.6.5) vera; urgency=medium
+
+  * Remove obsolete Mint-Y-Dark-Yellow
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 28 Nov 2022 13:52:57 +0000
+
+mint-y-icons (1.6.4) vera; urgency=medium
+
+  * Adjust folder color tones
+  * Generate files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 28 Nov 2022 12:25:51 +0000
+
+mint-y-icons (1.6.3) vera; urgency=medium
+
+  * Remove Yellow Mint-Y theme
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 24 Nov 2022 21:52:45 +0000
+
+mint-y-icons (1.6.2) vera; urgency=medium
+
+  [ Clement Lefebvre ]
+  * user-desktop: Flip icon vertically
+  * render-apps: Fix script compatibility with new inkscape
+  * cs-desktop: Flip vertically
+  * user-desktop-symbolic: Flip vertically
+
+  [ Sébastien Bouchard ]
+  * "sed -i 's/block-progression:tb;//g' *" (deprecated and unneeded CSS property) (#322)
+  * modified:   src/render_places.py (--export-png -> --export-filename) (#323)
+
+  [ Fabio Fantoni ]
+  * some packaging improvements (#315)
+
+  [ Copra ]
+  * Adding a few more icons (#313)
+
+  [ Clement Lefebvre ]
+  * src/apps: Fix filenames for audible/pinterest
+  * src/render-apps-categories-bitmaps.py: Identify incorrect icon names
+  * apps: Fix incorrect icon names
+  * Regenerate app icons
+  * Switch to papirus inspired places
+  * Regenerate icons
+  * Update Aqua, Orange, Purple, Red, Sand, Teal
+  * Update Blue and Grey
+
+  [ Michael Webster ]
+  * Run multiple jobs at once in render_places.py.
+  * Pixel align folder icons.
+
+  [ Clement Lefebvre ]
+  * Update Green
+  * Tune colors
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 22 Nov 2022 15:40:29 +0000
+
 mint-y-icons (1.6.1) vanessa; urgency=medium
 
   [ JosephMcc ]
